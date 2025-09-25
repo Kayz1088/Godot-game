@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://b0s6yq34176by"]
+
+[ext_resource type="Texture2D" uid="uid://owufq25ffe3y" path="res://Sunny Land Collection Files/Sunny Land Collection Files/Assets/Environments/Woods/ENVIRONMENT/Bacgkrounds/bg-clouds.png" id="1_275co"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+
+[node name="BgClouds" type="Sprite2D" parent="."]
+position = Vector2(746.5, 401)
+scale = Vector2(9.25625, 3.8365386)
+texture = ExtResource("1_275co")
